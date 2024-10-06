@@ -14,5 +14,6 @@ public class Fibonacci_Series {
             num1 = num2;
             num2 = num3;
         }
+        obj.close();
     }
 }
