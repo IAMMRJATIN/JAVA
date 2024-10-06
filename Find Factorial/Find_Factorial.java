@@ -11,14 +11,13 @@ public class Find_Factorial {
         Scanner obj = new Scanner(System.in);
         System.out.println("Enter a number who's factorial you want to print : ");
         int num = obj.nextInt();
-
+        obj.close();
+        
         int i, factorial = 1;
         for ( i = 1; i <= num; i++){
             factorial *= i;
         }
         System.out.println("Factorial of the number " + num + " is : " + factorial);
-
-        obj.close();
     }
 
 }
