@@ -21,5 +21,6 @@ public class Check_PrimeNumber {
         else{
             System.out.println("number "+ num +" is not a Prime Number.");
         }
+        obj.close();
     }    
 }
