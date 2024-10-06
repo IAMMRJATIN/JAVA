@@ -17,5 +17,8 @@ public class Find_Factorial {
             factorial *= i;
         }
         System.out.println("Factorial of the number " + num + " is : " + factorial);
+
+        obj.close();
     }
+
 }
