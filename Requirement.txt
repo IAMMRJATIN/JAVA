@@ -3,3 +3,5 @@
 1. "StringBuilder Function" : StringBuilder is a mutable sequence of characters. It is part of the java.lang package and is used to create and manipulate strings efficiently. Unlike String, which is immutable, StringBuilder allows you to modify the content of the string without creating new objects. This makes it particularly useful when you need to perform many modifications, such as appending, inserting, or deleting characters.
 
 2. "java.util.Scanner" : This the java library used for take input from the user (by making object).
+
+3. "close()" : This close function is use for 
